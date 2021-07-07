@@ -1,3 +1,48 @@
 [07-Jul-2021 18:52:18 UTC] PHP Warning:  Use of undefined constant hello - assumed 'hello' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/experiment.php on line 13
 [07-Jul-2021 18:52:18 UTC] PHP Stack trace:
 [07-Jul-2021 18:52:18 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/experiment.php:0
+[07-Jul-2021 19:07:08 UTC] PHP Warning:  Use of undefined constant newFunction - assumed 'newFunction' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[07-Jul-2021 19:07:08 UTC] PHP Stack trace:
+[07-Jul-2021 19:07:08 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:0
+[07-Jul-2021 19:07:08 UTC] PHP   2. require() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:17
+[07-Jul-2021 19:07:08 UTC] PHP   3. require_once() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php:19
+[07-Jul-2021 19:07:08 UTC] PHP   4. include() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php:106
+[07-Jul-2021 20:45:46 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';' in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[07-Jul-2021 20:52:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function content() in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php:16
+Stack trace:
+#0 /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php(19): require_once('/Users/tracyvel...')
+#2 /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php(17): require('/Users/tracyvel...')
+#3 {main}
+  thrown in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 16
+[07-Jul-2021 20:53:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function content() in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php:15
+Stack trace:
+#0 /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php(19): require_once('/Users/tracyvel...')
+#2 /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php(17): require('/Users/tracyvel...')
+#3 {main}
+  thrown in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 15
+[07-Jul-2021 20:54:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[07-Jul-2021 20:54:56 UTC] PHP Stack trace:
+[07-Jul-2021 20:54:56 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:0
+[07-Jul-2021 20:54:56 UTC] PHP   2. require() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:17
+[07-Jul-2021 20:54:56 UTC] PHP   3. require_once() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php:19
+[07-Jul-2021 20:54:56 UTC] PHP   4. include() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php:106
+[07-Jul-2021 20:54:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[07-Jul-2021 20:54:56 UTC] PHP Stack trace:
+[07-Jul-2021 20:54:56 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:0
+[07-Jul-2021 20:54:56 UTC] PHP   2. require() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:17
+[07-Jul-2021 20:54:56 UTC] PHP   3. require_once() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php:19
+[07-Jul-2021 20:54:56 UTC] PHP   4. include() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php:106
+[07-Jul-2021 20:54:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[07-Jul-2021 20:54:56 UTC] PHP Stack trace:
+[07-Jul-2021 20:54:56 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:0
+[07-Jul-2021 20:54:56 UTC] PHP   2. require() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:17
+[07-Jul-2021 20:54:56 UTC] PHP   3. require_once() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php:19
+[07-Jul-2021 20:54:56 UTC] PHP   4. include() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php:106
+[07-Jul-2021 20:54:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[07-Jul-2021 20:54:56 UTC] PHP Stack trace:
+[07-Jul-2021 20:54:56 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:0
+[07-Jul-2021 20:54:56 UTC] PHP   2. require() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:17
+[07-Jul-2021 20:54:56 UTC] PHP   3. require_once() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php:19
+[07-Jul-2021 20:54:56 UTC] PHP   4. include() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php:106
