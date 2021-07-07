@@ -46,3 +46,5 @@ Stack trace:
 [07-Jul-2021 20:54:56 UTC] PHP   2. require() /Users/tracyvelasquez/Local Sites/university-site/app/public/index.php:17
 [07-Jul-2021 20:54:56 UTC] PHP   3. require_once() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-blog-header.php:19
 [07-Jul-2021 20:54:56 UTC] PHP   4. include() /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-includes/template-loader.php:106
+[07-Jul-2021 21:14:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[07-Jul-2021 21:14:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tracyvelasquez/Local Sites/university-site/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
