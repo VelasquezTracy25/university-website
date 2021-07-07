@@ -1,4 +1,7 @@
 <?php 
+
+    get_header();
+
     $names = array('Brad','John','Jane', "Meowsalot");
 
     $count = 0;
@@ -15,4 +18,6 @@
 <?php the_content();?>
 <hr>
 <?php }
-    ?>
+
+        get_footer();
+?>
