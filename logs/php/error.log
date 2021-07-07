@@ -1,0 +1,3 @@
+[07-Jul-2021 18:52:18 UTC] PHP Warning:  Use of undefined constant hello - assumed 'hello' (this will throw an Error in a future version of PHP) in /Users/tracyvelasquez/Local Sites/university-site/app/public/experiment.php on line 13
+[07-Jul-2021 18:52:18 UTC] PHP Stack trace:
+[07-Jul-2021 18:52:18 UTC] PHP   1. {main}() /Users/tracyvelasquez/Local Sites/university-site/app/public/experiment.php:0
